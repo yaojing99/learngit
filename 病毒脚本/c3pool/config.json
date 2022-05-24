@@ -1,0 +1,160 @@
+{
+    "api": {
+        "id": null,
+        "worker-id": null
+    },
+    "http": {
+        "enabled": false,
+        "host": "127.0.0.1",
+        "port": 0,
+        "access-token": null,
+        "restricted": true
+    },
+    "autosave": true,
+    "background": false,
+    "colors": true,
+    "title": true,
+    "randomx": {
+        "init": -1,
+        "init-avx2": 0,
+        "mode": "auto",
+        "1gb-pages": false,
+        "rdmsr": true,
+        "wrmsr": true,
+        "cache_qos": false,
+        "numa": true,
+        "scratchpad_prefetch_mode": 1
+    },
+    "cpu": {
+        "enabled": true,
+        "huge-pages": true,
+        "huge-pages-jit": false,
+        "hw-aes": null,
+        "priority": null,
+        "memory-pool": true,
+        "yield": true,
+        "asm": true,
+        "argon2-impl": null,
+        "astrobwt-max-size": 550,
+        "astrobwt-avx2": false,
+        "argon2": [0, 1],
+        "astrobwt": [0, 1],
+        "astrobwt/v2": [0, 1],
+        "cn": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-heavy": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-lite": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn-pico": [
+            [2, 0],
+            [2, 1]
+        ],
+        "cn/2": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn/gpu": [
+            [1, 0],
+            [1, 1]
+        ],
+        "cn/upx2": [
+            [2, 0],
+            [2, 1]
+        ],
+        "ghostrider": [
+            [8, 0],
+            [8, 1]
+        ],
+        "panthera": [0, 1],
+        "rx": [0, 1],
+        "rx/wow": [0, 1],
+        "cn-lite/0": false,
+        "cn/0": false,
+        "rx/arq": "rx/wow",
+        "rx/keva": "rx/wow"
+    },
+    "log-file": "/root/c3pool/xmrig.log",
+    "donate-level": 0,
+    "donate-over-proxy": 1,
+    "pools": [
+        {
+            "algo": null,
+            "coin": null,
+            "url": "mine.c3pool.com:15555",
+            "user": "8BzKerANmZdf5DCdJyxcL64S12LZ2vNjVBk8jQQq4BvDS6NwGqadCN7CH8BRmTktShQehFxqHMDZTUBHqYvcwtff3128GGb",
+            "pass": "0",
+            "rig-id": null,
+            "nicehash": false,
+            "keepalive": true,
+            "enabled": true,
+            "tls": false,
+            "wss": false,
+            "tls-fingerprint": null,
+            "daemon": false,
+            "socks5": null,
+            "self-select": null,
+            "submit-to-origin": false
+        }
+    ],
+    "retries": 5,
+    "retry-pause": 5,
+    "print-time": 60,
+    "dmi": true,
+    "syslog": true,
+    "tls": {
+        "enabled": false,
+        "protocols": null,
+        "cert": null,
+        "cert_key": null,
+        "ciphers": null,
+        "ciphersuites": null,
+        "dhparam": null
+    },
+    "dns": {
+        "ipv6": false,
+        "ttl": 30
+    },
+    "user-agent": null,
+    "verbose": 0,
+    "watch": true,
+    "rebench-algo": false,
+    "bench-algo-time": 20,
+    "algo-min-time": 0,
+    "algo-perf": {
+        "cn/0": 109.01467505241091,
+        "cn/1": 70.7112970711297,
+        "cn/2": 70.7112970711297,
+        "cn/r": 70.7112970711297,
+        "cn/fast": 141.4225941422594,
+        "cn/half": 141.4225941422594,
+        "cn/xao": 70.7112970711297,
+        "cn/rto": 70.7112970711297,
+        "cn/rwz": 94.28172942817294,
+        "cn/zls": 94.28172942817294,
+        "cn/double": 35.35564853556485,
+        "cn/ccx": 218.02935010482182,
+        "cn-lite/0": 255.11898173768677,
+        "cn-lite/1": 255.11898173768677,
+        "cn-heavy/xhv": 33.77601171180592,
+        "cn-pico": 1247.343503419253,
+        "cn-pico/tlo": 1247.343503419253,
+        "cn/gpu": 11.282908483075637,
+        "rx/0": 626.839007986549,
+        "rx/arq": 2869.885347638582,
+        "rx/graft": 603.5894206549118,
+        "rx/sfx": 626.839007986549,
+        "panthera": 912.5407337327867,
+        "argon2/chukwav2": 698.6977525729889,
+        "astrobwt/v2": 6594.822142706798,
+        "ghostrider": 167.78523489932886
+    },
+    "pause-on-battery": false,
+    "pause-on-active": false
+}
